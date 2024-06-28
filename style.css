@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,body{
+    background-color: black;
+    color: white;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+    height: 3vh;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(netflix.jpg);
+  }
+  
+  #logo{
+    margin: 2vh 2vh;
+    font-size: 2vh;
+    font-weight: 900;
+    color: red;
+  }
+  
+  #right_nav{
+    margin: 2.5vh 2vh;
+    width: 30%;
+  }
+  
+  #Language1{
+    padding-left: .5vh;
+    border: none;
+    background-color: rgb(247, 28, 28);
+    border: 1px white solid;
+    color: white;
+  }
+  
+  #signBtn{
+    width: 7vh;
+    margin-left: .2vh;
+    border:  1px white solid;
+    background-color: red;
+    color: white;
+    border-radius: 4%;
+  }
+  
+  #content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(netflix.jpg);
+  }
+  
+  #first{
+    font-weight: 900;
+  }
+  
+  #second{
+    margin-top: .5vh;
+  }
+  
+  #last{
+    margin-top: 1vh;
+    font-size:  1vh;
+  }
+  
+  #email{
+    height: 4vh;
+    width: 30vh;
+    margin-top: .5vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    outline: none;
+    border: 1px solid white;
+    padding-left: 1vh;
+    color: white;
+  }
+  
+  #btn_get{
+    height: 4vh;
+    width: 19%;
+    background-color: red;
+    border-radius: 4%;
+    color: white;
+    border: none;
+    margin-top: 1vh;
+  }
+  
+
+  
+  #feature {
+  height: 35vh;
+  text-align: center;
+  }
+  
+  
+  #feature h1{
+    padding-top: 5vh;
+  }
+  
+  
+  #feature p{
+    padding-top: 1vh;
+  }
+  
+  #tv{
+    margin-top: 5vh;
+    height: 20vh;
+  }
+  
+  #feature2{
+    text-align: center;
+  }
+  
+  #feature2 h1{
+    margin-top: 5vh;
+  }
+  
+  #feature2 p{
+    margin-top: 1vh;
+  }
+  
+  #mobile{
+    height: 25vh;
+  }
+  
+  
+  #feature3{
+    text-align: center;
+  }
+  
+  #feature3 h1{
+    margin-top: 5vh;
+  }
+  
+  #feature3 p{
+    margin-top: 1vh;
+  }
+  
+  #feature4 img{
+    height: 25vh;
+  }
+  
+  #device {
+    height: 25vh;
+  }
+  
+  footer{
+    margin-top: 5vh;
+    height: 40vh;
+    text-align: center;
+  }
+  
+  #link{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vh;
+    width: 92%;
+    margin-top: 2vh;
+  }
+  
+  #link a{
+    text-decoration: none;
+    color: white;
+    height: 5vh;
+    margin-top: .5vh;
+    background-color: rgba(255,255,255,0.2);
+    padding-top: 1vh;
+    padding-left: 1vh;
+    text-align: left;
+  }
+  
+  #foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vh;
+  }
+  #btn_down{
+    height: 4vh;
+    width: 19%;
+    background-color: red;
+    border-radius: 4%;
+    color: white;
+    border: none;
+    margin-top: 1vh;
+  }
+  
+  #subFooter{
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 18vh;
+  }
+  
+  #subFooter a{
+    text-decoration: underline;
+    color: darkgrey;
+    text-align: left;
+    height: 2.2vh;
+    margin-left: 3vh;
+    margin-top: 1vh;
+  }
+  
+  #Language2{
+    margin-left: 3vh;
+    margin-bottom: 5vh;
+    width: 7vh;
+    border: none;
+    border: 1px solid white;
+    border-radius: 4%;
+    background-color: black;
+    color: white;
+    padding-left: .5vh;
+  }
+  
+  
+  #power{
+    color: darkgray;
+    display: block;
+  }
+
+
+  @media screen and (min-width: 992px) {
+    #btn_get{width: 7%;}
+    #btn_down{width: 7%;}
+  }
